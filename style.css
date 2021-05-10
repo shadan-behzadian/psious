@@ -1,0 +1,81 @@
+.orange {
+  top: 10px;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  background-color: orange;
+}
+
+.pink {
+  top: 100px;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  background-color: pink;
+}
+
+.yellow {
+  top: 200px;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  background-color: yellow;
+}
+.resizer {
+  position: absolute;
+  height: 40px;
+}
+
+.resizer.e {
+  border-style: solid;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  border-left-style: hidden;
+  border-color: black;
+  right: -1px;
+  cursor: e-resize;
+}
+
+.resizer.w {
+  border-style: solid;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-color: black;
+  cursor: w-resize;
+}
+
+.boxName {
+  position: absolute;
+}
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: lightgray;
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.outside {
+  opacity: 0.3;
+}
+
+.inside {
+  opacity: inherit;
+}
+
+.finalResults {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
